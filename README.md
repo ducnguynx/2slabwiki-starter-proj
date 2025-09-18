@@ -2,6 +2,17 @@
 
 Như các bạn đã biết, dự án đầu vào gồm nhiều phần liên quan tới nhiều mảng kiến thức khác nhau. Repository này tổng hợp các kiến thức về mạng máy tính, lập trình nhúng cho đến phát triển phần mềm và quản trị cơ sở dữ liệu.
 
+## LƯU Ý
+
+Vì số lượng thành viên khá đông (11 người), sẽ có trường hợp một câu hỏi được hỏi nhiều lần. Vì vậy, để tiện cho các nhóm theo dõi, khi có câu hỏi, các bạn cần tạo 1 Github Issue ở repository này.
+
+Các bạn có thể đóng góp các ý tưởng hay vào github repository này (fork + pull request)
+
+![alt text](image-1.png)
+
+Câu trả lời sẽ được public trực tiếp ở phần [FAQs](#frequently-asked-questions)
+
+
 ##  Mục Lục
 
 - [Thiết Kế Mạch với Altium Designer](#thiết-kế-mạch-với-altium-designer)
@@ -128,3 +139,5 @@ Dự sẽ bao gồm một cơ sở dữ liệu, các bạn sẽ sử dụng cơ 
 - **[SQL Tutorial](https://neon.com/postgresql/tutorial)**: Học các khái niệm của PostgreSQL qua các bài tập
 
 Chúc bạn học tập hiệu quả!
+
+## Frequently Asked Questions
