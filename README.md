@@ -106,7 +106,7 @@ C là ngôn ngữ lập trình được sử dụng nhiều nhất trong lập t
 Tuy nhiên, thời gian đầu, các bạn phần lớn chỉ dùng thư viện và hiểu cách gọi hàm, nên kiến thức cần biết cũng khá đơn giản. Ai đã qua môn kĩ thuật lập trình thì cũng không cần lo lắng nhiều.
 
 
-- **[The C Programming Language (Sách của K&R)](https://seriouscomputerist.atariverse.com/media/pdf/book/C%20Programming%20Language%20-%202nd%20Edition%20(OCR).pdf)**: Trang web tương tác để học C ngay trên trình duyệt.
+- **[The C Programming Language (Sách của K&R)](https://seriouscomputerist.atariverse.com/media/pdf/book/C%20Programming%20Language%20-%202nd%20Edition%20(OCR).pdf)**: Sách dạy lập trình C với các ví dụ cũng như cách dẫn dắt chi tiết.
 
 ### C++
 Các bạn có thể không cần sử dụng C++ ở dự án này, nhưng nếu có  (dùng Arduino framework / hoặc viết Web server dùng thư viện Crow), các bạn nên tham khảo [Learn CPP](https://www.learncpp.com/) vì nó đơn giản luôn cập nhật tính năng ở các bản C++ mới nhất, đọc dễ hiểu. Và lý do thứ 2
