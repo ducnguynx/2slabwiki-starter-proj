@@ -103,7 +103,7 @@ Có rất nhiều nguồn học, các bạn tự lọc ra những tài liệu ph
 Với dự án đầu vào, mình nghĩ phần lập trình cũng khá đơn giản.
 
 
-### C
+### C lang
 
 C là ngôn ngữ lập trình được sử dụng nhiều nhất trong lập trình nhúng & hệ điều hành (cùng với Assembly), nó giúp các bạn hiểu sâu về cách máy tính hoạt động. Đây là ngôn ngữ bắt buộc phải biết trong lập trình nhúng và hệ thống.
 
@@ -111,6 +111,8 @@ Tuy nhiên, thời gian đầu, các bạn phần lớn chỉ dùng thư viện 
 
 
 - **[The C Programming Language (Sách của K&R)](https://seriouscomputerist.atariverse.com/media/pdf/book/C%20Programming%20Language%20-%202nd%20Edition%20(OCR).pdf)**: Sách dạy lập trình C với các ví dụ cũng như cách dẫn dắt chi tiết.
+
+Học kĩ **con trỏ và bộ nhớ, tham chiếu tham trị** nhé, kẻo code chạy tràn bộ nhớ đấy :)))
 
 ### C++
 Các bạn có thể không cần sử dụng C++ ở dự án này, nhưng nếu có  (dùng Arduino framework / hoặc viết Web server dùng thư viện Crow), các bạn nên tham khảo [Learn CPP](https://www.learncpp.com/) vì nó đơn giản luôn cập nhật tính năng ở các bản C++ mới nhất, đọc dễ hiểu. 
