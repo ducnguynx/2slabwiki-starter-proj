@@ -42,7 +42,7 @@ Cách tốt nhất để học Altium là thực hành vẽ một mạch cơ b�
 
 > LƯU Ý: Có một số tutorial trên Youtube khác hướng dẫn vẽ mạch khá linh tinh (từ import thư viện, tổ chức file, ...). Các bạn nên tham khảo các video ở trên
 
-Altium chỉ là công cụ để vẽ một mạch in (PCB), tức là các bạn phải có hiểu biết về cách đấu nối các thiết bị trên breadboard và test hoạt động ổn định trước khi dùng Alitum để vẽ mạch in PCB
+Altium chỉ là công cụ để vẽ mạch nguyên lý và mạch in (PCB), tức là các bạn phải có hiểu biết về cách đấu nối các thiết bị trên breadboard và test hoạt động ổn định trước khi dùng Alitum để vẽ mạch in PCB
 
 
 ---
