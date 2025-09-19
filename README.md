@@ -15,14 +15,21 @@ Câu trả lời sẽ được public trực tiếp ở phần [FAQs](#frequentl
 
 ##  Mục Lục
 
-- [Thiết Kế Mạch với Altium Designer](#thiết-kế-mạch-với-altium-designer)
-- [Nguyên Lý Mạng Máy Tính](#nguyên-lý-mạng-máy-tính)
-- [Lập Trình ESP32 với IDF](#lập-trình-esp32-với-idf)
-- [Ngôn Ngữ Lập Trình](#ngôn-ngữ-lập-trình)
-  - [Ngôn Ngữ C](#ngôn-ngữ-c)
-  - [JavaScript](#javascript)
-  - [Node.js](#nodejs)
-- [Cơ Sở Dữ Liệu SQL](#cơ-sở-dữ-liệu-sql)
+- [2slabWiki - Một số tài liệu hữu ích cho dự án đầu vào](#2slabwiki---một-số-tài-liệu-hữu-ích-cho-dự-án-đầu-vào)
+  - [LƯU Ý](#lưu-ý)
+  - [Mục Lục](#mục-lục)
+  - [Thiết Kế Mạch với Altium Designer](#thiết-kế-mạch-với-altium-designer)
+  - [Lập Trình ESP32 với IDF](#lập-trình-esp32-với-idf)
+  - [Nguyên Lý Mạng Máy Tính](#nguyên-lý-mạng-máy-tính)
+  - [Ngôn Ngữ Lập Trình](#ngôn-ngữ-lập-trình)
+    - [C lang](#c-lang)
+    - [C++](#c)
+    - [JavaScript](#javascript)
+    - [Node.js](#nodejs)
+  - [Git và Github/Gitlab](#git-và-githubgitlab)
+  - [Cơ Sở Dữ Liệu SQL](#cơ-sở-dữ-liệu-sql)
+  - [Nâng cao: Hướng đến một source code "xịn xò" hơn](#nâng-cao-hướng-đến-một-source-code-xịn-xò-hơn)
+  - [Frequently Asked Questions](#frequently-asked-questions)
 
 ---
 
