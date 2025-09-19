@@ -15,14 +15,21 @@ Câu trả lời sẽ được public trực tiếp ở phần [FAQs](#frequentl
 
 ##  Mục Lục
 
-- [Thiết Kế Mạch với Altium Designer](#thiết-kế-mạch-với-altium-designer)
-- [Nguyên Lý Mạng Máy Tính](#nguyên-lý-mạng-máy-tính)
-- [Lập Trình ESP32 với IDF](#lập-trình-esp32-với-idf)
-- [Ngôn Ngữ Lập Trình](#ngôn-ngữ-lập-trình)
-  - [Ngôn Ngữ C](#ngôn-ngữ-c)
-  - [JavaScript](#javascript)
-  - [Node.js](#nodejs)
-- [Cơ Sở Dữ Liệu SQL](#cơ-sở-dữ-liệu-sql)
+- [2slabWiki - Một số tài liệu hữu ích cho dự án đầu vào](#2slabwiki---một-số-tài-liệu-hữu-ích-cho-dự-án-đầu-vào)
+  - [LƯU Ý](#lưu-ý)
+  - [Mục Lục](#mục-lục)
+  - [Thiết Kế Mạch với Altium Designer](#thiết-kế-mạch-với-altium-designer)
+  - [Lập Trình ESP32 với IDF](#lập-trình-esp32-với-idf)
+  - [Nguyên Lý Mạng Máy Tính](#nguyên-lý-mạng-máy-tính)
+  - [Ngôn Ngữ Lập Trình](#ngôn-ngữ-lập-trình)
+    - [C lang](#c-lang)
+    - [C++](#c)
+    - [JavaScript](#javascript)
+    - [Node.js](#nodejs)
+  - [Git và Github/Gitlab](#git-và-githubgitlab)
+  - [Cơ Sở Dữ Liệu SQL](#cơ-sở-dữ-liệu-sql)
+  - [Nâng cao: Hướng đến một source code "xịn xò" hơn](#nâng-cao-hướng-đến-một-source-code-xịn-xò-hơn)
+  - [Frequently Asked Questions](#frequently-asked-questions)
 
 ---
 
@@ -42,7 +49,7 @@ Cách tốt nhất để học Altium là thực hành vẽ một mạch cơ b�
 
 > LƯU Ý: Có một số tutorial trên Youtube khác hướng dẫn vẽ mạch khá linh tinh (từ import thư viện, tổ chức file, ...). Các bạn nên tham khảo các video ở trên
 
-Altium chỉ là công cụ để vẽ một mạch in (PCB), tức là các bạn phải có hiểu biết về cách đấu nối các thiết bị trên breadboard và test hoạt động ổn định trước khi dùng Alitum để vẽ mạch in PCB
+Altium chỉ là công cụ để vẽ mạch nguyên lý và mạch in (PCB), tức là các bạn phải có hiểu biết về cách đấu nối các thiết bị trên breadboard và test hoạt động ổn định trước khi dùng Alitum để vẽ mạch in PCB
 
 
 ---
@@ -96,10 +103,14 @@ Nếu muốn học nhanh một ngôn ngữ, các bạn có thể tham khảo [tr
 
 > LƯU Ý: Nhóm hướng dẫn sẽ giúp các bạn debug code. Tuy nhiên, nếu các bạn chỉ thuần copy paste từ LLMs, không hiểu code và đưa code cho nhóm hướng dẫn debug -> 99% loại
 
-Với dự án đầu vào, mình nghĩ phần lập trình cũng khá đơn giản..
+Các bạn cũng có thể sử dụng [W3School](https://www.w3schools.com/) để tiếp cận ban đầu một ngôn ngữ, liệt kê các khái niệm cơ bản, giải thích và đưa ra ví dụ ngắn gọn. 
+
+Có rất nhiều nguồn học, các bạn tự lọc ra những tài liệu phù hợp với mình để học theo.
+
+Với dự án đầu vào, mình nghĩ phần lập trình cũng khá đơn giản.
 
 
-### C
+### C lang
 
 C là ngôn ngữ lập trình được sử dụng nhiều nhất trong lập trình nhúng & hệ điều hành (cùng với Assembly), nó giúp các bạn hiểu sâu về cách máy tính hoạt động. Đây là ngôn ngữ bắt buộc phải biết trong lập trình nhúng và hệ thống.
 
@@ -108,13 +119,20 @@ Tuy nhiên, thời gian đầu, các bạn phần lớn chỉ dùng thư viện 
 
 - **[The C Programming Language (Sách của K&R)](https://seriouscomputerist.atariverse.com/media/pdf/book/C%20Programming%20Language%20-%202nd%20Edition%20(OCR).pdf)**: Sách dạy lập trình C với các ví dụ cũng như cách dẫn dắt chi tiết.
 
+Học kĩ **con trỏ và bộ nhớ, tham chiếu tham trị** nhé, kẻo code chạy tràn bộ nhớ đấy :)))
+
 ### C++
-Các bạn có thể không cần sử dụng C++ ở dự án này, nhưng nếu có  (dùng Arduino framework / hoặc viết Web server dùng thư viện Crow), các bạn nên tham khảo [Learn CPP](https://www.learncpp.com/) vì nó đơn giản luôn cập nhật tính năng ở các bản C++ mới nhất, đọc dễ hiểu. Và lý do thứ 2
+Các bạn có thể không cần sử dụng C++ ở dự án này, nhưng nếu có  (dùng Arduino framework / hoặc viết Web server dùng thư viện Crow), các bạn nên tham khảo [Learn CPP](https://www.learncpp.com/) vì nó đơn giản luôn cập nhật tính năng ở các bản C++ mới nhất, đọc dễ hiểu. 
 
-![text](image.png)
+Nếu làm phần mềm bằng C/C++, nên sử dụng [CMake](https://cmake.org/cmake/help/latest/guide/tutorial/index.html). **CMake** là **build-tool** phổ biến nhất cho các dự án C/C++. Ngoài tài liệu trên trang chính thức của **CMake**, các bạn có thể theo tutorial này: [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/README.html#), dễ đọc hơn.
 
 
-### JavaScript [Sơn vào chỉnh]
+<!-- Ngoài ra, các bạn có thể học các  -->
+
+<!-- ![text](image.png) -->
+
+
+### JavaScript 
 
 JavaScript là ngôn ngữ của web. Từ một ngôn ngữ chỉ chạy trên trình duyệt, JS nay đã có thể làm được mọi thứ từ backend, mobile app đến machine learning.
 
@@ -122,7 +140,9 @@ JavaScript là ngôn ngữ của web. Từ một ngôn ngữ chỉ chạy trên 
 - **[MDN Web Docs (JavaScript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**: Tài liệu tham khảo chuẩn xác nhất từ Mozilla.
 - **[FreeCodeCamp - JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)**: Học qua các dự án và thử thách thực tế.
 
-### Node.js [Sơn vào chỉnh]
+### Node.js 
+
+Đối với **NodeJS** và các công nghệ web hiện đại nói chung (ExpressJS, ReactJS, PostgreSQL, v.v..) sẽ đều có tutorial và reference khá cụ thể và chi tiết trên **trang web chính thức** của công nghệ đó, các bạn cứ vào trang web và tìm document hoặc tutorial là được.
 
 Node.js là môi trường chạy JavaScript phía server, giúp xây dựng các ứng dụng web tốc độ cao và có khả năng mở rộng tốt.
 
@@ -132,12 +152,28 @@ Node.js là môi trường chạy JavaScript phía server, giúp xây dựng cá
 
 ---
 
-## Cơ Sở Dữ Liệu SQL [Sơn bổ sung]
+## Git và Github/Gitlab
+
+Đã làm phần mềm thì sẽ phải động đến Git để quản lý source code: [Git Book](https://git-scm.com/book/en/v2).
+
+## Cơ Sở Dữ Liệu SQL 
 
 Dự sẽ bao gồm một cơ sở dữ liệu, các bạn sẽ sử dụng cơ sở dữ liệu SQL để lưu trữ các dữ liệu đo từ cảm biến
 
 - **[SQL Tutorial](https://neon.com/postgresql/tutorial)**: Học các khái niệm của PostgreSQL qua các bài tập
 
-Chúc bạn học tập hiệu quả!
+
+## Nâng cao: Hướng đến một source code "xịn xò" hơn
+
+Nếu các bạn muốn học thêm về phần mềm để ra được sản phẩm code tốt hơn, tối ưu hơn, có thể tham khảo tại [**Nâng cao: Hướng đến một source code "xịn xò" hơn**](Software-dev-quite-advanced.md).
+
+
 
 ## Frequently Asked Questions
+
+
+***
+
+🧑‍💻 Happy Hacking! 🧑‍💻
+
+**© 2025 by Anh-Duc Nguyen x Thai-Son Nguyen | Sensor Lab.**
