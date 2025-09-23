@@ -17,7 +17,7 @@ Dưới đây sẽ là gợi ý các đầu việc để các bạn có thể tr
 -   **Linh kiện - Đã chọn:**
     -   Cảm biến ánh sáng: Module BH1750
     -   Vi điều khiển (MCU) + WiFi: Module ESP32 (sinh viên năm 3 trở lên không dùng Kit - tự thiết kế mạch PCB)
-    -   Nút nhấn: 1 nút reset, 1 nút chức năng
+    -   Nút nhấn: 1 nút reset, 1 nút boot, 1 nút chức năng
     -   Đèn báo: 1 LED
     -   Nguồn: Mạch nguồn 5V (từ USB hoặc adapter)
 
@@ -39,8 +39,9 @@ Giai đoạn này tập trung vào việc lập trình cho ESP32 để đọc d�
 ### Danh sách công việc:
 
 -   **Cài đặt môi trường lập trình:**
-    -   Nếu dùng Arduino Framework: Cài đặt Arduino IDE hoặc PlatformIO (với các bạn dùng VSCode là editor chính).
-    -   Nếu dùng ESP32 IDF: Cài đặt IDE theo hướng dẫn của hãng.
+-   -   Nếu dùng ESP32 IDF: Cài đặt IDE theo hướng dẫn của hãng.
+    <!-- -   Nếu dùng Arduino Framework: Cài đặt Arduino IDE hoặc PlatformIO (với các bạn dùng VSCode là editor chính).
+     -->
 
 -   **Lập trình các module chức năng:**
     -   Viết code đọc dữ liệu từ cảm biến BH1750 qua giao tiếp I2C (Thư viện)
@@ -56,18 +57,18 @@ Giai đoạn này tập trung vào việc lập trình cho ESP32 để đọc d�
 
 ## Giai đoạn 3: Lập trình web
 
-Xây dựng một ứng dụng web đơn giản để nhận và hiển thị dữ liệu từ cảm biến. Sơn sẽ hỗ trợ chính.
+Xây dựng một ứng dụng web đơn giản để nhận và hiển thị dữ liệu từ cảm biến.
 
 ### Danh sách công việc:
 
 -   **Lựa chọn công nghệ:**
-    -   Chọn một trong các ngôn ngữ để xây dựng web, các em chọn cái nào cũng được, nhưng để có sự hỗ trợ tốt nhất: JavaScript (Sơn hỗ trợ), C++(dùng Crow - Đức hỗ trợ), hoặc Python FastAPI (Đức hỗ trợ)
+    -   Chọn một trong các ngôn ngữ để xây dựng web, các em chọn cái nào cũng được, nhưng để có sự hỗ trợ tốt nhất: JavaScript, C++, hoặc Python FastAPI
 
--   **Xây dựng Backend (HTTP Server) - Đức & Sơn hỗ trợ:**
+-   **Xây dựng Backend (HTTP Server)**
     -   Tạo một server có khả năng lắng nghe và nhận dữ liệu từ yêu cầu (request) của ESP32
     -   Xử lý dữ liệu nhận được và lưu trữ ở CSDL.
 
--   **Xây dựng Frontend (Giao diện người dùng) - Sơn hỗ trợ:**
+-   **Xây dựng Frontend (Giao diện người dùng)**
     -   Thiết kế một giao diện web đơn giản.
     -   Hiển thị giá trị cường độ ánh sáng nhận được từ cảm biến một cách trực quan.ss
 
