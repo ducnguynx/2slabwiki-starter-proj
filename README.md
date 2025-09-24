@@ -2,6 +2,10 @@
 
 Như các bạn đã biết, dự án đầu vào gồm nhiều phần liên quan tới nhiều mảng kiến thức khác nhau. Repository này tổng hợp các kiến thức về mạng máy tính, lập trình nhúng cho đến phát triển phần mềm và quản trị cơ sở dữ liệu.
 
+## UPDATE CÁC ĐẦU MỤC CÔNG VIỆC
+
+[TODOs](./TODOs.md)
+
 ## LƯU Ý
 
 Vì số lượng thành viên khá đông (11 người), sẽ có trường hợp một câu hỏi được hỏi nhiều lần. Vì vậy, để tiện cho các nhóm theo dõi, khi có câu hỏi, các bạn cần tạo 1 Github Issue ở repository này.
@@ -171,6 +175,9 @@ Nếu các bạn muốn học thêm về phần mềm để ra được sản ph
 
 ## Frequently Asked Questions
 
+### 1. Lập trình trên Module ESP32 là người nào làm ạ, phần cứng hay phần mềm ạ ?
+
+> Trả lời: Bạn làm phần mềm sẽ lập trình trên ESP32 luôn các bạn nhé
 
 ***
 
