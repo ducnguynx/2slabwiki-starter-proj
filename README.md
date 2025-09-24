@@ -179,6 +179,14 @@ Nếu các bạn muốn học thêm về phần mềm để ra được sản ph
 
 > Trả lời: Bạn làm phần mềm sẽ lập trình trên ESP32 luôn các bạn nhé
 
+### 2. Mạch PCB cần có những gì ?
+
+> Trả lời: Các em sẽ cần làm một mạch custom (có thể tham khảo thiết kế của Kit ESP32) để thực hiện chức năng của dự án.
+
+Gợi ý: Các em có thể thiết kế nguồn, nút nhấn, cảm biến. Riêng phần nạp code có 2 loại chính (CP2102 khá khó hàn, CH340 dễ hàn hơn). Tích hợp mạch nạp code lên mạch là tính năng nâng cao -> nhóm nào thiết kế ra mạch nạp code chạy được sẽ có điểm cộng
+
+### Nhắc nhở: Các em tạo Github Issue để hỏi nhé
+
 ***
 
 🧑‍💻 Happy Hacking! 🧑‍💻
