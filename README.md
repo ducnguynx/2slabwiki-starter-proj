@@ -185,6 +185,25 @@ Nếu các bạn muốn học thêm về phần mềm để ra được sản ph
 
 Gợi ý: Các em có thể thiết kế nguồn, nút nhấn, cảm biến. Riêng phần nạp code có 2 loại chính (CP2102 khá khó hàn, CH340 dễ hàn hơn). Tích hợp mạch nạp code lên mạch là tính năng nâng cao -> nhóm nào thiết kế ra mạch nạp code chạy được sẽ có điểm cộng
 
+### 3. Có thể hàn được MicroUSB không ?
+
+> Trả lời: Các em có thể hàn được tất cả các loại nếu khéo tay nhé, nhưng với những chuẩn USB cũ như MicroUSB hoặc MiniUSB thì các em không nên đưa vào thiết kế mạch nữa, nên dùng USB TypeC nhé
+
+Chi tiết hơn ở [đây](https://github.com/ducnguynx/2slabwiki-starter-proj/issues/8)
+
+### 4. Thay thế CP2102 bằng CH340C hoặc một UART bridge nào khác để làm mạch nạp code
+
+> Trả lời: Các em có thể dùng loại USB-to-seial (UART) bridge tùy thích, nhớ tham khảo kĩ reference design của hãng sản xuất ra chip nhé.
+
+Hoặc nhóm nào cảm thấy khó hàn khó thiết kế thì có thể dùng mạch UART bridge ở ngoài cũng được, vì đây là tính năng điểm cộng.
+
+Chi tiết hơn ở [đây](https://github.com/ducnguynx/2slabwiki-starter-proj/issues/7)
+
+### 5. Thiết kế mạch với Kit ESP32 thì có cần có gì ?
+
+Chi tiết hơn ở [đây](https://github.com/ducnguynx/2slabwiki-starter-proj/issues/3)
+
+
 ### Nhắc nhở: Các em tạo Github Issue để hỏi nhé
 
 ***
