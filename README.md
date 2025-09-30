@@ -209,6 +209,14 @@ Chi tiết hơn ở [đây](https://github.com/ducnguynx/2slabwiki-starter-proj/
 
 Anh đã đưa ra một số gợi ý chi tiết hơn ở [đây](https://github.com/ducnguynx/2slabwiki-starter-proj/issues/10)
 
+### 7. Để phục vụ cho phần project thì nội dung cơ sở dữ liệu SQL thì nên tập trung vào những phần nào ạ?
+
+Chi tiết hơn ở [đây](https://github.com/ducnguynx/2slabwiki-starter-proj/issues/11)
+
+### 8. Lab có làm việc vào T7-CN không?
+
+> Trả lời: Thường là không, trừ những dịp đặc biệt
+
 
 ### Nhắc nhở: Các em tạo Github Issue để hỏi nhé
 
