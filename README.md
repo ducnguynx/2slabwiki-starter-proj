@@ -203,6 +203,12 @@ Chi tiết hơn ở [đây](https://github.com/ducnguynx/2slabwiki-starter-proj/
 
 Chi tiết hơn ở [đây](https://github.com/ducnguynx/2slabwiki-starter-proj/issues/3)
 
+### 6. (Thiết kế) Nhận tín hiệu người sử dụng yêu cầu dừng làm sao cho tối ưu
+
+> Trả lời: Thật ra cái này các em phải tự nghĩ để các anh đánh giá ý, nó cũng không quá khó đâu.
+
+Anh đã đưa ra một số gợi ý chi tiết hơn ở [đây](https://github.com/ducnguynx/2slabwiki-starter-proj/issues/10)
+
 
 ### Nhắc nhở: Các em tạo Github Issue để hỏi nhé
 
