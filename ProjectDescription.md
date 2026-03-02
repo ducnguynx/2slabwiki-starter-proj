@@ -101,7 +101,7 @@ truyền thông giữa:
 
 - Kỹ thuật lập trình: lập trình vi điều khiển, phần mềm ứng dụng (server, giao diện, cơ sở dữ liệu).
 
-## Tài liệu hướng dần
+## Tài liệu hướng dẫn
 
 Tài liệu hướng dẫn xem [ở đây](/README.md)
 
