@@ -217,6 +217,13 @@ Chi tiết hơn ở [đây](https://github.com/ducnguynx/2slabwiki-starter-proj/
 
 > Trả lời: Thường là không, trừ những dịp đặc biệt
 
+### 9. Có được phép sử dụng các component ngoài hay không?
+
+> Trả lời: Phần lớn các thứ em code sẽ toàn dùng thư viện thôi, việc sử dụng thư viện là hoàn toàn bình thường em nhé. Ví dụ như vinfast nó chế ô tô thì nó cũng phải đi mua lốp từ bên nào đấy, nó chế lại từ A đến Z thì chắc còn lâu mới làm được. Sau này đi làm thì chắc là nếu em làm low-level thì phải làm lại từ A đến Z, nhưng hiện tại thì cứ dùng thư viện và hiểu thư viện là được em nhé.
+
+### 10. Dùng kit ESP32 có cần 2 nút nhấn với LED nữa không ạ?
+
+> Trả lời: Nếu em năm 2 dùng kit thì vẫn phải có nút nhấn (chức năng khác) trên breadboard nhé. Còn led kia thì dùng led của kit luôn cũng được.
 
 ### Nhắc nhở: Các em tạo Github Issue để hỏi nhé
 
